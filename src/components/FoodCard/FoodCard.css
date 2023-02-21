@@ -1,0 +1,39 @@
+.foodcard {
+  display: grid;
+  grid-template-rows: 225px 48px 36px;
+  grid-template-columns: 310px;
+  row-gap: 15px;
+  max-width: 310px;
+  min-height: 367px;
+  background-color: #E59A54;
+  color: black;
+  margin: 0 20px 0 0;
+}
+
+.foodcard:nth-of-type(3n) {
+  margin: 0;
+}
+
+.foodcard__pic-box {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+}
+
+.foodcard__text {
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 24px;
+  text-align: center;
+  max-width: 202px;
+  margin: 0 auto 0 auto;
+}
+
+.foodcard__price {
+  font-size: 24px;
+  font-weight: 600;
+  line-height: 36px;
+  text-align: center;
+  margin: 0;
+}

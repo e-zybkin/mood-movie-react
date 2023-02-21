@@ -1,0 +1,27 @@
+.form {
+  display: flex;
+  flex-direction: column;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.form_type_review{
+  width: 45%;
+  min-height: 425px;
+  background-color: #E59A54;
+  background-image: url(../../images/clap.png);
+}
+
+.form__save-btn {
+  width: 180px;
+  height: 54px;
+  background-color: #E59A54;
+  color: black;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  border: none;
+  margin: 17px auto 0 auto;
+}
+
+

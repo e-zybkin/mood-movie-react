@@ -1,0 +1,78 @@
+.popup__film-box {
+  display: flex;
+  flex-direction: column;
+  border-top: 1px solid #E59A54;
+  border-bottom: 1px solid #E59A54;
+  margin: 38px;
+  justify-content: center;
+}
+
+.popup__film-header{
+  display: flex;
+  color: #E59A54;
+  margin-top: 68px;
+  align-items: center;
+}
+
+.popup__film-title{
+  font-size: 32px;
+  font-weight: 600;
+  line-height: 48px;
+  text-align: left;
+  margin: 0px;
+  margin-right: 10px;
+}
+
+.popup__film-age{
+  width: 36px;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  text-align: center;
+  border: 1px solid #E59A54;
+  border-radius: 10px;
+}
+
+.popup__film-info{
+  display: flex;
+  max-width: 980px;
+}
+
+.popup__film-about{
+  max-width: 380px;
+  margin: 0;
+  margin-right: 20px;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  text-align: left;
+  align-self: center;
+}
+
+.popup__film-trailer{
+  position: relative;
+  max-width: 580px;
+  min-height: 361px;
+  aspect-ratio: 16/9; /*Поменять на гриды в родительском классе*/
+}
+
+.popup__film-trailer iframe{
+  object-fit: cover;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+
+.popup__film-link {
+  align-self: flex-end;
+  width: 58%;
+  min-height: 20px;
+  color: #5C7699B2;
+  font-size: 13px;
+  font-weight: 400;
+  line-height: 20px;
+  text-align: center;
+  margin: 10px 0 47px 0;
+}

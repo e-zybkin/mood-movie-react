@@ -1,0 +1,46 @@
+.carousel {
+  max-width: 100%;
+  min-height: 551px;
+  display: flex;
+  align-items: center;
+}
+
+.carousel__reviews{
+  flex-direction: column;
+  max-width: 1080px; /*380px костыль*/
+  min-width: 1080px;
+  align-self: center;
+  overflow: hidden;
+}
+
+.carousel__window{
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+}
+
+.carousel__window_type_review{
+  overflow: visible;
+  max-width: 380px;
+}
+
+.carousel__all-items {
+  max-width: 1150px;
+  height: 100%;
+  display: flex;
+  transition: translate;
+  transition-property: transform;
+  transition-duration: 0.25s;
+  transition-timing-function: ease-in-out;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.arrow{
+  margin-right: 54px;
+}
+
+.arrow:nth-of-type(2) {
+  margin-right: 0;
+  margin-left: 54px;
+}

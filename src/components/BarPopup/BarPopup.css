@@ -1,0 +1,47 @@
+.popup__bar-box {
+  display: flex;
+  flex-direction: column;
+  border-top: 1px solid #E59A54;
+  border-bottom: 1px solid #E59A54;
+  margin: 38px;
+}
+
+.popup__bar-title{
+  color: #E59A54;
+  font-size: 32px;
+  font-weight: 600;
+  line-height: 48px;
+  margin: 40px auto 30px auto;
+}
+
+.popup__bar-text {
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  text-align: center;
+  max-width: 750px;
+  min-height: 48px;
+  margin: 0 auto 54px auto;
+}
+
+.popup__bar-header {
+  font-size: 23px;
+  font-weight: 600;
+  line-height: 35px;
+  text-align: left;
+  color: #E59A54;
+  margin: 0;
+}
+
+.popup__bar-block {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  max-width: 970px;
+  margin: 30px auto 65px auto;
+}
+
+.popup__bar-block:nth-of-type(3n) {
+  margin-bottom: 40px;
+}
